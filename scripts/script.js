@@ -113,8 +113,17 @@ resetInput.onclick = () => {
   confirmPasswordInput.value = "";
 
   firstNameInput.classList.remove("is-valid");
+  firstNameInput.classList.remove("is-invalid");
+
   lastNameInput.classList.remove("is-valid");
+  lastNameInput.classList.remove("is-invalid");
+
   emailInput.classList.remove("is-valid");
+  emailInput.classList.remove("is-invalid");
+
   passwordInput.classList.remove("is-valid");
+  passwordInput.classList.remove("is-invalid");
+
   confirmPasswordInput.classList.remove("is-valid");
+  confirmPasswordInput.classList.remove("is-invalid");
 };
