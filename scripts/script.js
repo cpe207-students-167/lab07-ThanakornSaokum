@@ -55,7 +55,7 @@ submitBtn.onclick = () => {
   // validate first name
   if (firstNameInput.value === "") {
     firstNameInput.classList.add("is-invalid");
-  } else if(firstNameInput.value === "ธนกร") {
+  } else{
     firstNameInput.classList.add("is-valid");
     isFirstNameOk = true;
   }
@@ -63,7 +63,7 @@ submitBtn.onclick = () => {
   // validate last name
   if (lastNameInput.value === "") {
     lastNameInput.classList.add("is-invalid");
-  } else if(lastNameInput.value === "เสาคำ"){
+  } else{
     lastNameInput.classList.add("is-valid");
     isLastNameOk = true;
   }
