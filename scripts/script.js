@@ -90,6 +90,8 @@ submitBtn.onclick = () => {
     confirmPasswordInput.classList.add("is-invalid");
   } else if (confirmPasswordInput.value !== passwordInput.value) {
     confirmPasswordInput.classList.add("is-invalid");
+  } else if(confirmPasswordInput.value.length < 6){
+    confirmPasswordInput.classList.add("is-invalid");
   } else if (confirmPasswordInput.value === passwordInput.value) {
     confirmPasswordInput.classList.add("is-valid");
     isConfirmPasswordOk = true;
